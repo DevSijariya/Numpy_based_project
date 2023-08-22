@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 data=[]
-with open(r"C:\Users\sansk\Downloads\MER_T07_02A-2020-02-03.csv",'r') as csvfile:
+with open(r"C:\Users\sansk\Downloads\MER_T07_02A-2020-02-03.csv",'r') as csvfile: #path where you save the csv file.
     file_reader=csv.reader(csvfile,delimiter=',')
     for row in file_reader:
         data.append(row)
